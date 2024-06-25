@@ -1,0 +1,120 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #000000, #08091a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #006e12;
+}
+
+
+
+.logo {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    margin: 0 0 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color:white;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 12px;
+    width: calc(100% - 28px);
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    background-color: rgba(142, 68, 173, 0.7);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+button:hover {
+    background-color: rgba(115, 45, 145, 0.7);
+    transform: scale(1.05);
+}
+
+.profile-container {
+    margin-top: 25px;
+}
+
+.profile {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.profile h2 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+.profile p {
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.profile .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profile .info div {
+    text-align: center;
+}
+
+.profile .info div span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile .info div small {
+    font-size: 14px;
+    color: white;
+}
